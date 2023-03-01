@@ -1,0 +1,48 @@
+
+/*navigation bar CSS starts from here*/
+.nav-bar{
+    display: flex;
+}
+
+.title{
+    padding-left: 60px;
+    font-family: 'Michroma', sans-serif; /*imported font*/
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    padding: 36px 0 0 600px ;
+}
+
+.menu{
+    text-decoration: none;
+    font-size: 30px;
+    padding-right: 60px;
+    color: rgb(0, 0, 0);
+    font-family: 'Michroma', sans-serif;
+}
+
+.menu:hover{
+    font-size: 27px;
+    color: rgb(94, 89, 89);
+}
+/*navigation bar CSS ends here*/
+
+/*containt CSS start here*/
+.intro-head{
+    color: black;
+    font-family: 'Michroma', sans-serif;
+    font-size: 35px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.profil{
+    padding: 130px 0 0 1300px;
+    height: 700px;
+}
+
+.shape{
+    width: 1200px;
+}
