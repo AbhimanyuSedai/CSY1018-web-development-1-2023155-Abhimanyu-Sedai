@@ -42,3 +42,19 @@ nav{
 }
 
 /*navigation bar CSS ends here*/
+
+/*contact content starts here*/
+
+.intro{
+    color: white;
+    font-size: 50px;
+    font-family: 'Michroma';
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-main{
+    color: white;
+    display: flex;
+}
+/*contact content ends here*/
