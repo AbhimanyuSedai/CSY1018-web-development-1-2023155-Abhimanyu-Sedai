@@ -53,10 +53,6 @@ nav{
     padding-top: 40px;
 }
 
-.my-info{
-
-}
-
 .intro-head{
     padding-left: 90px;
 }
@@ -69,10 +65,6 @@ nav{
 
 .fill-up{
     padding-right: 150px;
-}
-
-.fillup-head{
-
 }
 
 /*form CSS starts from here*/
@@ -140,4 +132,4 @@ form{
     padding-left: 30px;
 }
 
-/*socials CSS starts here*/
+/*socials CSS ends here*/
