@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+/*navigation bar CSS starts from here*/
+.top{
+    display: flex;
+}
+
+.title{
+    padding-left: 55px;
+    font-family: 'Michroma', sans-serif; /*imported font*/
+    font-size: 25px;
+    color: white;
+    display: flex;
+}
+
+nav{
+    padding: 15px 0 0 700px ;
+
+}
+
+.menu-main{   /*CSS for the page you are in*/
+    font-size: 25px;
+    padding-right: 60px;
+    color: rgb(221, 13, 13);
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+}
+
+.menu{
+    text-decoration: none;
+    font-size: 22px;
+    padding-top: 0;
+    padding-right: 60px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
+.menu:hover , .menu-main:hover{
+    color: rgb(156, 140, 140);
+}
+
+/*navigation bar CSS ends here*/
