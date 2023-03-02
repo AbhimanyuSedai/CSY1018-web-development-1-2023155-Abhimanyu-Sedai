@@ -45,16 +45,99 @@ nav{
 
 /*contact content starts here*/
 
-.intro{
-    color: white;
-    font-size: 50px;
-    font-family: 'Michroma';
-    text-align: center;
-    padding-top: 30px;
-}
-
-.contact-main{
+.contact-main{  /*Made this division to flex 'my-info and fill-up' div*/
     color: white;
     display: flex;
+    font-family: 'Michroma';
+    font-size: 30px;
+    padding-top: 40px;
 }
+
+.my-info{
+
+}
+
+.intro-head{
+    padding-left: 90px;
+}
+
+.intro-para{
+    font-family: 'Rajdhani';
+    padding-left: 120px;
+    font-size: 40px;
+}
+
+.fill-up{
+    padding-right: 150px;
+}
+
+.fillup-head{
+
+}
+
+/*form CSS starts from here*/
+
+form{
+    padding-top: 40px;
+}
+
+.name, .your-info{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid white 1px;
+    background-color: black;
+    font-size: 40px;
+    padding-top: 30px;
+    font-family: 'Rajdhani';
+    color: white;
+
+}
+
+.name::placeholder{
+    color: white;
+}
+
+.your-info::placeholder{
+    color: white;
+}
+
+.messege{
+    height: 150px;
+    width: 845px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Rajdhani';
+    resize: none;
+}
+
+.sub-but{
+    margin-left: 375px;
+    background-color: black;
+    color: white;
+    font-family: 'Michroma';
+    font-size: 20px;
+}
+
+/*form CSS ends here*/
+
 /*contact content ends here*/
+
+/*socials CSS starts here*/
+
+.socials{
+    margin-left: 850px ;
+    margin-top: 170px;
+}
+
+.socials-button{
+    background-color: black;
+}
+
+.social-icon{
+    padding-left: 30px;
+}
+
+/*socials CSS starts here*/
