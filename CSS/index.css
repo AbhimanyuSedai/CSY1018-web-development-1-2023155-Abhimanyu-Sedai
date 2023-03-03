@@ -5,76 +5,105 @@ body{
 /*navigation bar CSS starts from here*/
 .top{
     display: flex;
+    padding-top: 30px;
+    font-family: 'Michroma';
+
 }
 
 .title{
-    padding-left: 55px;
+    padding-left: 185px;
     font-family: 'Michroma', sans-serif; /*imported font*/
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     display: flex;
 }
 
-nav{
-    padding: 15px 0 0 700px ;
-
-}
-
-.menu-main{   /*CSS for the page you are in*/
-    font-size: 25px;
-    padding-right: 60px;
-    color: rgb(221, 13, 13);
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-}
-
 .menu{
+    font-size: 18px ;
+    margin-left: 25px;
     text-decoration: none;
-    font-size: 22px;
-    padding-top: 0;
-    padding-right: 60px;
     color: white;
-    font-family: 'Michroma', sans-serif;
+}
+
+.menu-main{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+nav{
+    padding: 15px 0 0 600px ;
+
 }
 
 .menu:hover , .menu-main:hover{
-    color: rgb(156, 140, 140);
+    color: rgb(59, 58, 58);
 }
 
 /*navigation bar CSS ends here*/
 
+
+/*My socials section CSS starts*/
+
+.socials{
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+.socials-link{
+    text-decoration: none;
+
+}
+
+.socials-button{
+    background-color: black;
+
+}
+
+/*My socials section CSS ends*/
+
 /*containt CSS start here*/
+
 .content{
-    margin-left: 270px;
+    margin-left: 150px;
+    padding-top: 100px;
+    display: flex;
 }
 
 .intro-head{
     color: white;
     font-family: 'Michroma', sans-serif;
     font-size: 100px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .intro-para{
-    padding-left: 60px;
+    padding-left: 50px;
     color: white;
     font-size: 25px;
     font-family: 'Rajdhani', sans-serif;  /*Another imported font*/
 }
 
-/*My socials section CSS starts*/
-.socials{
-    margin-left: 1900px;
-}
-
-.socials-button{
-    background-color: black;
-}
-
-.social-icon{
-    padding-left: 30px;
-}
-/*My socials section CSS ends*/
-
 /*containt CSS ends here*/
+
+/*pictutes CSS starts here*/
+
+.content-pics{
+}
+
+.python{
+    padding-left: 50px;
+}
+
+.c{
+    padding-top: 50px;
+    padding-left: 400px;
+}
+
+.html{
+    padding-top: 130px;
+    padding-left: 200px;
+}
+
+/*pictutes CSS ends here*/
+
