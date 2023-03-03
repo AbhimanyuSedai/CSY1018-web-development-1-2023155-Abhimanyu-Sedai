@@ -5,131 +5,159 @@ body{
 /*navigation bar CSS starts from here*/
 .top{
     display: flex;
+    padding-top: 30px;
+    font-family: 'Michroma';
+
 }
 
 .title{
-    padding-left: 55px;
+    padding-left: 185px;
     font-family: 'Michroma', sans-serif; /*imported font*/
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     display: flex;
 }
 
-nav{
-    padding: 15px 0 0 700px ;
-
-}
-
-.menu-main{   /*CSS for the page you are in*/
-    font-size: 25px;
-    padding-right: 60px;
-    color: rgb(221, 13, 13);
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-}
-
 .menu{
+    font-size: 18px ;
+    margin-left: 25px;
     text-decoration: none;
-    font-size: 22px;
-    padding-top: 0;
-    padding-right: 60px;
     color: white;
-    font-family: 'Michroma', sans-serif;
+}
+
+.menu-main{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+nav{
+    padding: 15px 0 0 600px ;
+
 }
 
 .menu:hover , .menu-main:hover{
-    color: rgb(156, 140, 140);
+    color: rgb(59, 58, 58);
 }
 
 /*navigation bar CSS ends here*/
 
-/*contact content starts here*/
 
-.contact-main{  /*Made this division to flex 'my-info and fill-up' div*/
-    color: white;
-    display: flex;
-    font-family: 'Michroma';
-    font-size: 30px;
-    padding-top: 40px;
-}
-
-.intro-head{
-    padding-left: 90px;
-}
-
-.intro-para{
-    font-family: 'Rajdhani';
-    padding-left: 120px;
-    font-size: 40px;
-}
-
-.fill-up{
-    padding-right: 150px;
-}
-
-/*form CSS starts from here*/
-
-form{
-    padding-top: 40px;
-}
-
-.name, .your-info{
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: solid white 1px;
-    background-color: black;
-    font-size: 40px;
-    padding-top: 30px;
-    font-family: 'Rajdhani';
-    color: white;
-
-}
-
-.name::placeholder{
-    color: white;
-}
-
-.your-info::placeholder{
-    color: white;
-}
-
-.messege{
-    height: 150px;
-    width: 845px;
-    margin-top: 30px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-family: 'Rajdhani';
-    resize: none;
-}
-
-.sub-but{
-    margin-left: 375px;
-    background-color: black;
-    color: white;
-    font-family: 'Michroma';
-    font-size: 20px;
-}
-
-/*form CSS ends here*/
-
-/*contact content ends here*/
-
-/*socials CSS starts here*/
+/*My socials section CSS starts*/
 
 .socials{
-    margin-left: 850px ;
-    margin-top: 170px;
+    padding-right: 180px;
+    padding-top: 10px;
+}
+
+.socials-link{
+    text-decoration: none;
+
 }
 
 .socials-button{
     background-color: black;
+
 }
 
-.social-icon{
+/*My socials section CSS ends*/
+
+/*containt CSS start here*/
+
+.content{
+    margin-left: 150px;
+    padding-top: 100px;
+    display: flex;
+}
+
+.info-1{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 100px;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.info-2{
+    padding-left: 200px;
+}
+
+.address{
+    display: flex;
+    padding-left: 400px;
+}
+
+.address-pic{
+    padding-top: 50px;
+}
+
+.address-descp{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 60px;
     padding-left: 30px;
 }
 
-/*socials CSS ends here*/
+.my-address{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 40px;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.phone{
+    display: flex;
+    padding-left: 380px;
+    padding-top: 50px;
+}
+
+.phone-pic{
+    padding-top: 50px;
+}
+
+.phone-descp{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 60px;
+    padding-left: 30px;
+}
+
+.my-phone{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 40px;
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+.mail{
+    display: flex;
+    padding-left: 380px;
+}
+
+.mail-pic{
+    padding-top: 75px;
+}
+
+.mail-descp{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 60px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.my-mail{
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 40px;
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 120px;
+}
+
+
+/*containt CSS ends here*/
