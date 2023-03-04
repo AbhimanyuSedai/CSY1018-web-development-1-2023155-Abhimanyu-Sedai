@@ -5,40 +5,60 @@ body{
 /*navigation bar CSS starts from here*/
 .top{
     display: flex;
+    padding-top: 30px;
+    font-family: 'Michroma';
+
 }
 
 .title{
-    padding-left: 55px;
+    padding-left: 185px;
     font-family: 'Michroma', sans-serif; /*imported font*/
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     display: flex;
 }
 
-nav{
-    padding: 15px 0 0 700px ;
-
-}
-
-.menu-main{   /*CSS for the page you are in*/
-    font-size: 25px;
-    padding-right: 60px;
-    color: rgb(221, 13, 13);
-    font-family: 'Michroma', sans-serif;
-    text-decoration: none;
-}
-
 .menu{
+    font-size: 18px ;
+    margin-left: 25px;
     text-decoration: none;
-    font-size: 22px;
-    padding-top: 0;
-    padding-right: 60px;
     color: white;
-    font-family: 'Michroma', sans-serif;
+}
+
+.menu-main{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 25px;
+    color: red;
+}
+
+nav{
+    padding: 15px 0 0 600px ;
+
 }
 
 .menu:hover , .menu-main:hover{
-    color: rgb(156, 140, 140);
+    color: rgb(59, 58, 58);
 }
 
 /*navigation bar CSS ends here*/
+
+
+/*My socials section CSS starts*/
+
+.socials{
+    padding-right: 153px;
+    padding-top: 10px;
+}
+
+.socials-link{
+    text-decoration: none;
+
+}
+
+.socials-button{
+    background-color: black;
+
+}
+
+/*My socials section CSS ends*/
