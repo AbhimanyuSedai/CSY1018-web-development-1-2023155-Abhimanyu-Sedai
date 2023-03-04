@@ -86,27 +86,33 @@ form{
     padding-top: 100px;
 }
 
-.name, .your-info{
+.name, .your-info, .company{
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: solid white 1px;
+    border-bottom: solid red 1px;
     background-color: black;
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 30px;
     font-family: 'Rajdhani';
     color: white;
+    width: 275px;
+}
+
+.your-info{
+    width: 417px;
+}
+
+.company{
+    width: 840px;
+    margin-top: 10px;
 }
 
 .your-info{
     margin-top: 10px;
 }
 
-.name::placeholder{
-    color: white;
-}
-
-.your-info::placeholder{
+.name::placeholder , .your-info::placeholder , .company::placeholder{
     color: white;
 }
 
@@ -119,10 +125,11 @@ form{
     font-size: 20px;
     font-family: 'Rajdhani';
     resize: none;
+    border-color: red;
 }
 
 .sub-but{
-    margin-left: 375px;
+    margin-left: 370px;
     background-color: black;
     color: white;
     font-family: 'Michroma';
