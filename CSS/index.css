@@ -87,31 +87,31 @@ nav{
 
 .content-pics{
     margin-left: 200px;
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 .python{
-    padding-left: 5px;
+    margin-left: 5px;
 }
 
 .c-lang{
-    padding-top: 30px;
-    padding-left: 170px;
+    margin-top: 30px;
+    margin-left: 170px;
 }
 
 .html{
-    padding-top: 30px;
-    padding-left: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .javascript{
-    padding-top: 30px;
-    padding-left: 170px;
+    margin-top: 30px;
+    margin-left: 170px;
 }
 
 .css{
-    padding-top: 30px;
-    padding-left: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 
