@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+    caret-color:red ;
+}
+
+/*navigation bar CSS starts from here*/
+.top{
+    display: flex;
+    padding-top: 30px;
+    font-family: 'Michroma';
+
+}
+
+.title{
+    padding-left: 185px;
+    font-family: 'Michroma', sans-serif; /*imported font*/
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.menu{
+    font-size: 18px ;
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    padding: 15px 0 0 600px ;
+
+}
+
+.menu:hover{
+    color: rgb(59, 58, 58);
+}
+
+/*navigation bar CSS ends here*/
+
+
+/*My socials section CSS starts*/
+
+.socials{
+    padding-right: 170px;
+    padding-top: 10px;
+}
+
+.socials-link{
+    text-decoration: none;
+
+}
+
+.socials-button{
+    background-color: black;
+
+}
+/*My socials section CSS ends*/
+
+/*content CSS start here*/
+
+.content{
+    color: white;
+    margin-top:300px;
+    margin-left: 527px;
+}
+
+.content-hero{
+    font-size: 71px;
+    font-family: 'Michroma';
+}
+
+.content-villain{
+    font-size: 25px;
+    font-family: 'Rajdhani';
+}
+
+.click{
+
+}
+
+.underline{
+    width: 950px;
+    margin-right: 1000px;
+}
+
+.previous-link{
+    text-decoration: none;
+}
+
+.previous-but{
+    margin-left: 920px;
+    margin-top: 70px;
+    background-color: white;
+    color: black;
+    font-family: 'Rajdhani';
+    font-size: 30px;
+    border-color: red;
+    border-radius: 15px;
+}
+
+/*content CSS ends here */
+
