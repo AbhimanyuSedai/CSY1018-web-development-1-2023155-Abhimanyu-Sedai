@@ -62,3 +62,102 @@ nav{
 }
 
 /*My socials section CSS ends*/
+
+
+/*content CSS starts here*/
+
+.content{
+    margin-bottom: 300px;
+}
+
+.intro{
+    padding-left: 185px;
+    padding-top: 150px;
+}
+
+.intro-head{
+    font-size: 60px;
+    font-family: 'Michroma';
+    color: white;
+}
+
+.intro-para{
+    font-size: 30px;
+    font-family: 'Rajdhani';
+    color: white;
+}
+
+.experience{
+    font-family: 'Rajdhani';
+}
+
+.starb , .youtube{
+    color: white;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.micros ,.google{
+    color: white;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.micros-descp ,.youtube-descp{
+    margin-left: 350px;
+}
+
+
+.starb-head ,.google-head{
+    font-size: 50px;
+}
+
+.starb-head{
+    color: #00623D;
+}
+
+.micros-head{
+    color: #6E64C3;
+}
+
+.youtube-head{
+    color: red;
+}
+
+.google-head{
+    color:  #FBBD00;
+}
+
+.micros-head ,.youtube-head{
+    font-size: 50px;
+}
+
+.starb-pic ,.google-pic{
+    margin-left: 350px;
+    margin-top: 200px;
+}
+
+.micros-pic ,.youtube-pic{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.starb-date ,.google-date{
+    margin-left: 200px;
+    margin-top: 245px;
+    font-size: 50px;
+}
+
+.micros-date ,.youtube-date{
+    margin-left: 100px;
+    margin-top: 245px;
+    font-size: 50px;
+}
+
+.works{
+    font-size: 25px;
+}
+
+/*Content CSS ends here*/
