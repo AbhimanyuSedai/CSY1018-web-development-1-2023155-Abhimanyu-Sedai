@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    caret-color:red ;
 }
 
 /*navigation bar CSS starts from here*/
@@ -63,10 +64,10 @@ nav{
 
 /*My socials section CSS ends*/
 
-/*containt CSS start here*/
+/*content CSS start here*/
 
 .content{
-    padding-top: 150px;
+    padding-top: 120px;
     padding-left: 250px;
     display: flex;
 }
@@ -137,5 +138,5 @@ nav{
     height: 83px;
 }
 
-/*containt CSS ends here*/
+/*content CSS ends here*/
 
