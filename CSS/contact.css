@@ -19,21 +19,21 @@ body{
 }
 
 .menu{
-    font-size: 18px ;
+    font-size: 19px ;
     margin-left: 25px;
     text-decoration: none;
     color: white;
 }
 
 .menu-main{
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     margin-left: 25px;
-    color: red;
+    color: rgb(255, 106, 0);
 }
 
 nav{
-    padding: 15px 0 0 600px ;
+    padding: 15px 0 0 580px ;
 
 }
 
@@ -47,7 +47,7 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 153px;
+    padding-right: 150px;
     padding-top: 10px;
 }
 
@@ -74,12 +74,24 @@ nav{
     padding-left: 150px;
 }
 
-.fill-head{
+.fill-head ,.info-1{
     color: white;
     font-family: 'Michroma', sans-serif;
     font-size: 70px;
     padding-left: 200px;
     padding-top: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(15);
+}
+
+@keyframes typewriter{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 700px;
+    }
 }
 
 form{
@@ -90,7 +102,7 @@ form{
     border-top: none;
     border-right: none;
     border-left: none;
-    border-bottom: solid red 1px;
+    border-bottom: solid rgb(255, 106, 0) 1px;
     background-color: black;
     font-size: 30px;
     padding-top: 30px;
@@ -125,7 +137,7 @@ form{
     font-size: 20px;
     font-family: 'Rajdhani';
     resize: none;
-    border-color: red;
+    border-color: rgb(255, 106, 0);
 }
 
 .sub-but{
@@ -138,7 +150,7 @@ form{
 }
 
 .sub-but:hover{
-    background-color: red;
+    background-color: rgb(255, 106, 0);
 }
 
 .details{
@@ -160,7 +172,6 @@ form{
 .info-2{
     padding-left: 350px;
     padding-top: 10px;
-
 }
 
 .address{
