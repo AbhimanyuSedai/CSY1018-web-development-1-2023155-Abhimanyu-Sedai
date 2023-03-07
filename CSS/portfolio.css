@@ -1,5 +1,10 @@
 body{
     background-color: black;
+    caret-color:red ;
+}
+
+.main{
+    padding-bottom: 700px;
 }
 
 /*navigation bar CSS starts from here*/
@@ -19,21 +24,21 @@ body{
 }
 
 .menu{
-    font-size: 18px ;
+    font-size: 19px ;
     margin-left: 25px;
     text-decoration: none;
     color: white;
 }
 
 .menu-main{
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     margin-left: 25px;
-    color: red;
+    color: rgb(255, 106, 0);
 }
 
 nav{
-    padding: 15px 0 0 600px ;
+    padding: 15px 0 0 580px ;
 
 }
 
@@ -47,7 +52,7 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 153px;
+    padding-right: 150px;
     padding-top: 10px;
 }
 
@@ -62,3 +67,109 @@ nav{
 }
 
 /*My socials section CSS ends*/
+
+.intro{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Michroma';
+    color: rgb(255, 106, 0);
+    padding-top: 100px;
+}
+
+.pictures{
+    margin: 150px 0 500px 130px;
+}
+
+.ronaldo2{
+    padding-left: 20px;
+    position: absolute;
+}
+
+.ronaldo3{
+    padding-left: 320px;
+    position: absolute;
+}
+
+.ronaldo4{
+    padding-left: 620px;
+    position: absolute;
+}
+
+.ronaldo5{
+    padding-left: 920px;
+    position: absolute;
+}
+
+.ronaldo6{
+    padding-left: 1220px; 
+    position: absolute;
+}
+
+.ronaldo7{
+    padding-top: 20px;
+    position: absolute;
+}
+
+.ronaldo8{
+    padding-left: 300px;
+    padding-top: 50px;
+    position: absolute;
+}
+
+.ronaldo9{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 25px;
+}
+
+.ronaldo10{
+    position: absolute;
+    padding-left: 900px;
+    padding-top: 90px;
+}
+
+.ronaldo11{
+    position: absolute;
+    padding-left: 1200px;
+}
+
+.ronaldo12{
+    position: absolute;
+    padding-left: 1500px;
+    padding-top: 25px;
+}
+
+.ronaldo13{
+    position: absolute;
+    padding-top: 530px;
+}
+
+.ronaldo14{
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 560px;
+}
+
+.ronaldo15{
+    position: absolute;
+    padding-left: 600px;
+    padding-top: 605px;
+}
+
+.ronaldo16{
+    position: absolute;
+    padding-left: 900px;
+    padding-top: 500px;
+}
+
+.ronaldo17{
+    position: absolute;
+    padding-left: 1200px;
+    padding-top: 510px;
+}
+
+.ronaldo18{
+    position: absolute;
+    padding-left: 1500px;
+    padding-top: 535px;
+}
