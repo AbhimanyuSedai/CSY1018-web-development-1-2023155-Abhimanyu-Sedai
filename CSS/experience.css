@@ -19,21 +19,21 @@ body{
 }
 
 .menu{
-    font-size: 18px ;
+    font-size: 19px ;
     margin-left: 25px;
     text-decoration: none;
     color: white;
 }
 
 .menu-main{
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     margin-left: 25px;
-    color: red;
+    color: rgb(255, 106, 0);
 }
 
 nav{
-    padding: 15px 0 0 600px ;
+    padding: 15px 0 0 580px ;
 
 }
 
@@ -47,7 +47,7 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 153px;
+    padding-right: 150px;
     padding-top: 10px;
 }
 
@@ -76,16 +76,32 @@ nav{
 }
 
 .intro-head{
-    font-size: 60px;
+    font-size: 80px;
     font-family: 'Michroma';
     color: white;
 }
 
+/* Tyoewriter animation CSS starts */
+
 .intro-para{
-    font-size: 30px;
-    font-family: 'Rajdhani';
-    color: white;
+    font-size: 50px;
+    font-family: 'Work Sans';
+    color: rgb(255, 106, 0);
+    white-space: nowrap; /*this keeps the animated content in one line*/
+    overflow: hidden;
+    animation: typewriter 3s steps(25);
 }
+
+@keyframes typewriter{
+    from{
+        width: 0;
+    }
+    to{
+        width: 750px;
+    }
+}
+  
+/* Tyoewriter animation CSS ends */
 
 .experience{
     font-family: 'Rajdhani';
@@ -137,11 +153,20 @@ nav{
 .starb-pic ,.google-pic{
     margin-left: 350px;
     margin-top: 200px;
+    animation: rotate 5s linear infinite;
 }
 
 .micros-pic ,.youtube-pic{
     margin-left: 200px;
     margin-top: 200px;
+    animation: rotate 5s linear infinite;
+}
+
+/*Spining animation CSS*/
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 .starb-date ,.google-date{

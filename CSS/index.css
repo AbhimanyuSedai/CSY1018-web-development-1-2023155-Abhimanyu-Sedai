@@ -1,6 +1,5 @@
 body{
     background-color: black;
-    caret-color:red ;
 }
 
 /*navigation bar CSS starts from here*/
@@ -27,14 +26,14 @@ body{
 }
 
 .menu-main{
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     margin-left: 25px;
-    color: red;
+    color: rgb(255, 106, 0);
 }
 
 nav{
-    padding: 15px 0 0 600px ;
+    padding: 15px 0 0 580px ;
 
 }
 
@@ -48,7 +47,7 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 170px;
+    padding-right: 150px;
     padding-top: 10px;
 }
 
@@ -67,13 +66,16 @@ nav{
 /*content CSS start here*/
 
 .content{
-    padding-top: 120px;
-    padding-left: 250px;
+    padding-top: 100px;
+    padding-left: 180px;
+    margin-bottom: 300px;
     display: flex;
 }
 
+/*String animation effect CSS starts*/
+
 .string{
-    color: white;
+    color: rgb(255, 106, 0);
     font-family: 'Michroma', sans-serif;
     font-size: 18px;
     padding-left: 30px;
@@ -81,7 +83,7 @@ nav{
     animation: move 7s infinite;
 }
 
-@keyframes move {
+@keyframes move {   
     25% {
         transform: translatey(-80px);
       }
@@ -107,11 +109,11 @@ nav{
     padding-top: 50px;
     padding-left: 20px;
     font-family: 'Michroma';
-    font-size: 80px;
+    font-size: 100px;
     color: white;
     position: absolute;
     height: 180px;
-    width: 900px;
+    width: 1100px;
     background: black;
     transform: translate(10px, -250px);
 }
@@ -120,10 +122,12 @@ nav{
     animation: white-out 5s infinite;
 }
 
+/*String animation effect CSS ends*/
+
 .intro-para{
     padding-left: 50px;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Rajdhani', sans-serif;  /*Another imported font*/
 }
 
