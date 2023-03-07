@@ -74,7 +74,15 @@ nav{
     padding-left: 150px;
 }
 
-.fill-head ,.info-1{
+.info-1{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    font-size: 70px;
+    padding-left: 200px;
+    padding-top: 150px;
+}
+
+.fill-head{
     color: white;
     font-family: 'Michroma', sans-serif;
     font-size: 70px;
