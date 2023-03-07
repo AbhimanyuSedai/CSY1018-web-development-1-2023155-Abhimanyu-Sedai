@@ -20,18 +20,25 @@ body{
 }
 
 .menu{
-    font-size: 18px ;
+    font-size: 19px ;
     margin-left: 25px;
     text-decoration: none;
     color: white;
 }
 
+.menu-main{
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 25px;
+    color: red;
+}
+
 nav{
-    padding: 15px 0 0 600px ;
+    padding: 15px 0 0 580px ;
 
 }
 
-.menu:hover{
+.menu:hover , .menu-main:hover{
     color: rgb(59, 58, 58);
 }
 
@@ -41,7 +48,7 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 170px;
+    padding-right: 150px;
     padding-top: 10px;
 }
 
@@ -54,8 +61,8 @@ nav{
     background-color: black;
 
 }
-/*My socials section CSS ends*/
 
+/*My socials section CSS ends*/
 /*content CSS start here*/
 
 .content{
@@ -67,6 +74,7 @@ nav{
 .content-hero{
     font-size: 71px;
     font-family: 'Michroma';
+    color: rgb(255, 106, 0);
 }
 
 .content-villain{
