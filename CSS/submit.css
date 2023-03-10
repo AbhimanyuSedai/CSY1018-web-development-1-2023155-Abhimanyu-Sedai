@@ -48,18 +48,16 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 150px;
-    padding-top: 10px;
+    padding-right: 167px;
+    padding-top: 12px;
 }
 
 .socials-link{
     text-decoration: none;
-
 }
 
-.socials-button{
-    background-color: black;
-
+.socials-icon{
+    margin-right: 10px;
 }
 
 /*My socials section CSS ends*/

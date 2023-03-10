@@ -48,17 +48,15 @@ nav{
 
 .socials{
     padding-right: 150px;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 .socials-link{
     text-decoration: none;
-
 }
 
-.socials-button{
-    background-color: black;
-
+.socials-icon{
+    margin-right: 10px;
 }
 
 /*My socials section CSS ends*/
@@ -131,9 +129,23 @@ nav{
     font-family: 'Rajdhani', sans-serif;  /*Another imported font*/
 }
 
+.learn{
+    text-decoration: none;
+    background-color: red;
+    background-color: black;
+    color: white;
+    font-family: 'Rajdhani';
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.learn:hover{
+    font-size: 31px;
+}
+
 .content-pics{
     margin-left: 300px;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .html{

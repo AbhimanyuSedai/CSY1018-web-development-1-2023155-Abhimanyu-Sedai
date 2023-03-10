@@ -48,18 +48,17 @@ nav{
 
 .socials{
     padding-right: 150px;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 .socials-link{
     text-decoration: none;
-
 }
 
-.socials-button{
-    background-color: black;
-
+.socials-icon{
+    margin-right: 10px;
 }
+
 
 /*My socials section CSS ends*/
 
@@ -89,7 +88,7 @@ nav{
     color: rgb(255, 106, 0);
     white-space: nowrap; /*this keeps the animated content in one line*/
     overflow: hidden;
-    animation: typewriter 3s steps(25);
+    animation: typewriter 3s steps(40);
 }
 
 @keyframes typewriter{
