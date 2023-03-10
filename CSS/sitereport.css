@@ -19,21 +19,21 @@ body{
 }
 
 .menu{
-    font-size: 18px ;
+    font-size: 19px ;
     margin-left: 25px;
     text-decoration: none;
     color: white;
 }
 
 .menu-main{
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: none;
     margin-left: 25px;
-    color: red;
+    color: rgb(255, 106, 0);
 }
 
 nav{
-    padding: 15px 0 0 600px ;
+    padding: 15px 0 0 580px ;
 
 }
 
@@ -47,18 +47,80 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 153px;
-    padding-top: 10px;
+    padding-right: 150px;
+    padding-top: 12px;
 }
 
 .socials-link{
     text-decoration: none;
-
 }
 
-.socials-button{
-    background-color: black;
-
+.socials-icon{
+    margin-right: 10px;
 }
+
 
 /*My socials section CSS ends*/
+
+/*content CSS starts here*/
+
+.content{
+    color: white;
+    margin: 200px 0 500px 100px;
+}
+
+.content-head{
+    font-size: 80px;
+    margin: 100px 0 150px 600px;
+    font-family: 'Michroma';
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing steps(70) 1s;
+}
+
+@keyframes typing{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 600px;
+    }
+}
+
+.hero{
+    font-size: 50px;
+    color: rgb(255, 106, 0);
+    font-family: 'Michroma';
+}
+
+.hero-para{
+    font-size: 30px;
+    font-family: 'Rajdhani';
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.click-a{
+    text-decoration: none;
+    color: red;
+}
+
+.click-b{
+    text-decoration: none;
+    color: rgb(255, 106, 0);
+}
+
+.refrence{
+    font-size: 25px;
+    font-family: 'Work Sans';
+}
+
+.refrence-itm{
+    text-decoration: none;
+    color: red;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/*content CSS ends here*/
