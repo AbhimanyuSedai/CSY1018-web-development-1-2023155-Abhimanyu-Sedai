@@ -3,15 +3,23 @@ body{
 }
 
 /*navigation bar CSS starts from here*/
+
 .top{
     display: flex;
     padding-top: 30px;
     font-family: 'Michroma';
+}
 
+span{
+    display: none;
+}
+
+.top input{
+    display: none;
 }
 
 .title{
-    padding-left: 185px;
+    padding-left: 170px;
     font-family: 'Michroma', sans-serif; /*imported font*/
     font-size: 20px;
     color: white;
@@ -33,7 +41,7 @@ body{
 }
 
 nav{
-    padding: 15px 0 0 580px ;
+    padding: 15px 30px 0 580px;
 
 }
 
@@ -47,8 +55,7 @@ nav{
 /*My socials section CSS starts*/
 
 .socials{
-    padding-right: 150px;
-    padding-top: 12px;
+    padding: 12px 150px 0 0 ;
 }
 
 .socials-link{
@@ -103,7 +110,7 @@ nav{
 }
 
 .close::before{
-    content: 'I am Abhimanyu.';
+    content: 'Im Abhimanyu.';
     padding-top: 50px;
     padding-left: 20px;
     font-family: 'Michroma';
@@ -111,7 +118,7 @@ nav{
     color: white;
     position: absolute;
     height: 180px;
-    width: 1100px;
+    width: 1000px;
     background: black;
     transform: translate(10px, -250px);
 }
@@ -123,7 +130,7 @@ nav{
 /*String animation effect CSS ends*/
 
 .intro-para{
-    padding-left: 50px;
+    padding-left: 34px;
     color: white;
     font-size: 30px;
     font-family: 'Rajdhani', sans-serif;  /*Another imported font*/
@@ -136,7 +143,7 @@ nav{
     color: white;
     font-family: 'Rajdhani';
     font-size: 30px;
-    margin-left: 50px;
+    margin-left: 34px;
 }
 
 .learn:hover{
@@ -195,5 +202,234 @@ nav{
     height: 83px;
 }
 
+.socials2 ,.socials-link2 ,.socials-icon2{
+    display: none;  /*This only appeare on mobile resolution*/
+}
+
+
 /*content CSS ends here*/
+
+/*Responsive CSS starts here*/
+
+@media only screen and (max-width: 800px) {
+    /* styles for screens up to 800px wide */
+
+    .title{
+        font-size: 10px;
+        padding-left:5px ;
+        padding-top: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .socials2 ,.socials-link2 ,.socials-icon2{
+        display: inline;  /*To appear socials on different place*/
+    }
+
+    .socials ,.socials-link ,.socials-icon{
+        display: none;  /*To hide nav bar socials*/
+    }
+
+/*Hamburger button CSS starts here*/
+
+.top{
+  z-index: 1;
+}
+
+.menu ,.menu-main{
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.top input{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+}
+
+.top span{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+}
+
+.top span:first-child{
+  transform-origin: 0% 0%;
+}
+
+.top span:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
+
+.top a{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  list-style-type: none;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+.menu ,.menu-main{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.top input:checked ~ ul{
+  transform: none;
+}
+
+/*Hamburger button CSS starts here*/
+
+}
+  
+@media only screen and (min-width: 801px) and (max-width: 1300px) {
+    /* styles for screens between 901px and 1300px wide */
+    .title{
+        font-size: 14px;
+        padding-left: 5px;
+        padding-top: 2px;
+    }
+
+    nav{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    nav .menu , nav .menu-main{
+        font-size: 15px;
+    }
+
+    .socials{
+        padding: 12px 20px 0 0 ;
+    }
+
+    .socials-icon{
+        height: 20px;
+
+    }
+
+    .content{
+        padding-left: 10px;
+    }
+
+    .greet{
+        font-size: 20px;
+    }
+
+    h1.close::after{
+        height: 180px;
+        width: 200px;
+        background: black;
+        transform: translate(10px, -365px);
+    }
+
+    h1.close::before{
+        content: 'Im Abhimanyu.';
+        padding-top: 30px;
+        padding-left: 20px;
+        font-family: 'Michroma';
+        font-size: 50px;
+        color: white;
+        height: 100px;
+        width: 470px;
+        background: black;
+        transform: translate(10px, -150px);
+    }
+    @keyframes move {   
+        25% {
+            transform: translatey(-47px);
+          }
+          50% {
+            transform: translatey(-90px);
+          }
+          75% {
+            transform: translatey(-135px);
+          }
+    }
+    
+    .intro-para{
+        font-size: 20px;
+    }
+
+    .pic{
+        height: 50px;
+    }
+
+    .javascript{
+        height: 40px;
+    }
+
+    .pic:hover{
+        height: 55px;
+    }
+
+    .javascript:hover{
+        height: 45px;
+    }
+
+    .content-pics{
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+
+    .learn{
+        font-size: 15px;
+    }
+
+    .learn:hover{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1800px) {
+    /* styles for screens between 1301px and 1800px wide */
+.title{
+        font-size: 18px;
+        padding-left: 100px;
+        padding-top: 2px;
+    }
+
+    nav{
+        padding-top: 15px;
+        padding-left: 300px;
+    }
+
+    nav .menu , nav .menu-main{
+        font-size: 18px;
+    }
+
+    .socials{
+        padding: 12px 20px 0 0 ;
+    }
+
+    .socials-icon{
+        height: 30px;
+
+    }
+
+    .content{
+        padding-left: 80px;
+    }
+
+}
+
+
+/*Responsive CSS ends here*/
+
 
